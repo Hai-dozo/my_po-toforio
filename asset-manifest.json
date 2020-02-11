@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "http;//hai-dozo.github.io/my_po-toforio/static/css/main.25aee7a4.chunk.css",
-    "main.js": "http;//hai-dozo.github.io/my_po-toforio/static/js/main.10bd234e.chunk.js",
-    "main.js.map": "http;//hai-dozo.github.io/my_po-toforio/static/js/main.10bd234e.chunk.js.map",
-    "runtime-main.js": "http;//hai-dozo.github.io/my_po-toforio/static/js/runtime-main.dec778f1.js",
-    "runtime-main.js.map": "http;//hai-dozo.github.io/my_po-toforio/static/js/runtime-main.dec778f1.js.map",
-    "static/js/2.000ec7b0.chunk.js": "http;//hai-dozo.github.io/my_po-toforio/static/js/2.000ec7b0.chunk.js",
-    "static/js/2.000ec7b0.chunk.js.map": "http;//hai-dozo.github.io/my_po-toforio/static/js/2.000ec7b0.chunk.js.map",
-    "index.html": "http;//hai-dozo.github.io/my_po-toforio/index.html",
-    "precache-manifest.02c19759b07d5bd3d29d57a1e4054ded.js": "http;//hai-dozo.github.io/my_po-toforio/precache-manifest.02c19759b07d5bd3d29d57a1e4054ded.js",
-    "service-worker.js": "http;//hai-dozo.github.io/my_po-toforio/service-worker.js",
-    "static/css/main.25aee7a4.chunk.css.map": "http;//hai-dozo.github.io/my_po-toforio/static/css/main.25aee7a4.chunk.css.map",
-    "static/js/2.000ec7b0.chunk.js.LICENSE.txt": "http;//hai-dozo.github.io/my_po-toforio/static/js/2.000ec7b0.chunk.js.LICENSE.txt",
-    "static/media/china-glaze.png": "http;//hai-dozo.github.io/my_po-toforio/static/media/china-glaze.10a15d9b.png",
-    "static/media/ikebana.png": "http;//hai-dozo.github.io/my_po-toforio/static/media/ikebana.adcca397.png",
-    "static/media/logo.svg": "http;//hai-dozo.github.io/my_po-toforio/static/media/logo.5d5d9eef.svg"
+    "main.css": "/my_po-toforio/static/css/main.25aee7a4.chunk.css",
+    "main.js": "/my_po-toforio/static/js/main.7d4a309f.chunk.js",
+    "main.js.map": "/my_po-toforio/static/js/main.7d4a309f.chunk.js.map",
+    "runtime-main.js": "/my_po-toforio/static/js/runtime-main.9c16b44d.js",
+    "runtime-main.js.map": "/my_po-toforio/static/js/runtime-main.9c16b44d.js.map",
+    "static/js/2.000ec7b0.chunk.js": "/my_po-toforio/static/js/2.000ec7b0.chunk.js",
+    "static/js/2.000ec7b0.chunk.js.map": "/my_po-toforio/static/js/2.000ec7b0.chunk.js.map",
+    "index.html": "/my_po-toforio/index.html",
+    "precache-manifest.76d2ecea8d3a0690bc7cf857a0e598ac.js": "/my_po-toforio/precache-manifest.76d2ecea8d3a0690bc7cf857a0e598ac.js",
+    "service-worker.js": "/my_po-toforio/service-worker.js",
+    "static/css/main.25aee7a4.chunk.css.map": "/my_po-toforio/static/css/main.25aee7a4.chunk.css.map",
+    "static/js/2.000ec7b0.chunk.js.LICENSE.txt": "/my_po-toforio/static/js/2.000ec7b0.chunk.js.LICENSE.txt",
+    "static/media/china-glaze.png": "/my_po-toforio/static/media/china-glaze.10a15d9b.png",
+    "static/media/ikebana.png": "/my_po-toforio/static/media/ikebana.adcca397.png",
+    "static/media/logo.svg": "/my_po-toforio/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.dec778f1.js",
+    "static/js/runtime-main.9c16b44d.js",
     "static/js/2.000ec7b0.chunk.js",
     "static/css/main.25aee7a4.chunk.css",
-    "static/js/main.10bd234e.chunk.js"
+    "static/js/main.7d4a309f.chunk.js"
   ]
 }
