@@ -2,47 +2,49 @@ import React from 'react';
 import imageChina from './china-glaze.png';
 import imageIkebana from './ikebana.png';
 import './menu.scss'
+import data from './menu.json'
 
-class Menu extends React.Component {
+const Show = ({ title, url, isOpen, onMouseOver }) => (
+    <div className="main">
+        <div className="navbar">
+            <ul>
+                <li onMouseOver={onMouseOver}>{title}</li>
+            </ul>
+        </div>
+        <div className="showcase">
+            {isOpen && <iframe src={url}/>}
+        </div>
+    </div>
+  );
+  
+  class App extends React.Component {
     constructor(props){
-        super(props);
-        this.state = {
-            hover: false
+      super(props);
+      this.json = data;
+        this.state={
+          openIds: []
         }
-        this.mouseOver = this.mouseOver.bind(this);
-        
+        this.handleChange = this.handleChange.bind(this);
     }
-    mouseOver(){
-        this.setState({
-            hover: true,
-        })
+    handleChange(id){
+      let { openIds } = this.state;
+      openIds = openIds.includes(id) ? openIds.filter(e => e !== id) : [...openIds, id];
+      this.setState({ openIds });
     }
     render(){
-        const imgChina = <img class='img' src={imageChina} />;
-        const imgIkebana = <img class='img' src={imageIkebana} />;
-        return(
-            <div className='main'>
-                <div className='navbar'>
-                    <div>
-                        <p onMouseOver={this.mouseOver}>China glaze Landing Page</p>
-                    </div>
-                    <div>
-                        <p onMouseOver={this.mouseOver}>Ikebana Musium Landing Page</p>
-                    </div>
-                </div>
-                
-                <div className='showcase'>
-                    <div>
-                        <p>{this.state.hover && imgChina}</p>
-                    </div>
-                    <div>
-                        {this.state.hover && imgIkebana}
-                    </div>
-                </div>
-            </div>
-
-        )
+      return(
+        <div>
+          {this.json.map(q => (
+            <Show
+              key={q.id}
+              title={q.title}
+              url={q.url}
+              isOpen={this.state.openIds.includes(q.id)}
+              onMouseOver={() => { this.handleChange(q.id); }}
+            />
+          ))}
+        </div>
+      )
     }
-}
-
-export default Menu;
+  }
+  export default App;
