@@ -4,16 +4,17 @@ import imageIkebana from './ikebana.png';
 import './menu.scss'
 import data from './menu.json'
 
-const Show = ({ title, url, isOpen, onClick }) => (
-    <div className="website">
-        <div className="navbar">
-          <p onClick={onClick}>{title}</p>
-        </div>
-        <div className="showcase">
-            {isOpen && <iframe src={url}/>}
-        </div>
-    </div>
-  );
+const Navbar = ({ title, onClick }) => (
+  <div className="navbar">
+    <p onClick={onClick}>{title}</p>
+  </div>
+);
+
+const ShowCase = ({ url, isOpen }) => (
+  <div className="showcase">
+    {isOpen && <iframe src={url}/>}
+  </div>
+);
   
   class App extends React.Component {
     constructor(props){
@@ -33,14 +34,20 @@ const Show = ({ title, url, isOpen, onClick }) => (
       return(
         <div className="website-wrapper">
           {this.json.map(q => (
-            <Show
+            <Navbar
               key={q.id}
               title={q.title}
-              url={q.url}
-              isOpen={this.state.openIds.includes(q.id)}
               onClick={() => { this.handleChange(q.id); }}
             />
           ))}
+
+          {/* {this.json.map(q => (
+            <ShowCase
+              key={q.id}
+              isOpen={this.state.openIds.includes(q.id)}
+              onClick={() => { this.handleChange(q.id); }}
+            />
+          ))} */}
         </div>
       )
     }

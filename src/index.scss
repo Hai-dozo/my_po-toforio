@@ -1,5 +1,9 @@
 body {
-  
+  display: flex;
+  justify-content: center;
+  .wrapper{
+    width: 73%;
+  }
 }
 
 .header-container {
@@ -8,12 +12,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  .company-logo{
+  .logo{
     width: 13%;
     display: flex;
     align-items: center;
   }
-  .company-name {
+  .title {
     width: 30%;
     display: flex;
     align-items: center;
@@ -28,47 +32,44 @@ body {
     }
   }
   
-  .header-sub {
+  .sub {
     width: 40%;
     display: flex;
     align-items: center;
   }
 }
 
-.separate {
-  margin: -10px 0;
-  display: flex;
-  width: 100%;
-  .left {
-    display: flex;
-    flex-shrink: 3;
-    width: 100%;
-    justify-content: space-between;
-    margin: 50px 25px 50px 100px;
-    p {
-    height: 20px;
-    width: 20px;
-    background: orangered;
-    }
-  }
-  .right {
-    display: flex;
-    flex-shrink: 1;
-    width: 100%;
-    justify-content: space-between;
-    margin: 50px 50px 50px 25px;
-    p {
-      background: rgba(145, 180, 150, 1);
-      height: 20px;
-      width: 20px;
-    }
-  }
-}
+// .separate {
+//   margin: -10px 0;
+//   display: flex;
+//   width: 100%;
+//   .left {
+//     display: flex;
+//     flex-shrink: 3;
+//     width: 100%;
+//     justify-content: space-between;
+//     margin: 50px 25px 50px 100px;
+//     p {
+//     height: 20px;
+//     width: 20px;
+//     background: orangered;
+//     }
+//   }
+//   .right {
+//     display: flex;
+//     flex-shrink: 1;
+//     width: 100%;
+//     justify-content: space-between;
+//     margin: 50px 50px 50px 25px;
+//     p {
+//       background: rgba(145, 180, 150, 1);
+//       height: 20px;
+//       width: 20px;
+//     }
+//   }
+// }
 
 .main-container {
-  margin-top: -95px;
-  height: 500px;
-  width: 100%;
   // display: flex;
   // .menu {
   //   // border: solid 1px silver;
@@ -88,8 +89,6 @@ body {
   //   margin: 50px 50px 50px 25px;
   // }
 }
-
-
 
 .contact-form {
   display: flex;
