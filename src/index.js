@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import Menu from './Menu';
-import Menu_copy from './Menu_copy';
+// import MenuCopy from "./MenuCopy";
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-ReactDOM.render(<Menu />, document.getElementById('menu'));
-ReactDOM.render(<Menu_copy />, document.getElementById('menu-copy'));
+ReactDOM.render(<Menu />, document.getElementById('menu'))
+// ReactDOM.render(<MenuCopy />, document.getElementById('menu-copy'));
+
 
 // ReactDOM.render(<MenuNew />, document.getElementById('menu-new'));
 // If you want your app to work offline and load faster, you can change

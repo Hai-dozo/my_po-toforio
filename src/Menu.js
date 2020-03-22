@@ -4,13 +4,14 @@ import imageIkebana from './ikebana.png';
 import './menu.scss'
 import data from './menu.json'
 
-const Show = ({ title, url, isOpen, onClick }) => (
+const Show = ({ title, url }) => (
     <div className="website">
         <div className="navbar">
-          <p onClick={onClick}>{title}</p>
+          <p>{title}</p>
+          <a href={url} target="_blank">visit</a>
         </div>
         <div className="showcase">
-            {isOpen && <iframe src={url}/>}
+          <iframe src={url}/>
         </div>
     </div>
   );
@@ -37,12 +38,10 @@ const Show = ({ title, url, isOpen, onClick }) => (
               key={q.id}
               title={q.title}
               url={q.url}
-              isOpen={this.state.openIds.includes(q.id)}
-              onClick={() => { this.handleChange(q.id); }}
             />
           ))}
         </div>
       )
     }
   }
-  export default App;
+export default App;

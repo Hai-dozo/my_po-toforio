@@ -18,7 +18,7 @@ body {
     align-items: center;
   }
   .title {
-    width: 30%;
+    width: 40%;
     display: flex;
     align-items: center;
     #parent {
@@ -31,13 +31,34 @@ body {
       vertical-align: sub;
     }
   }
-  
   .sub {
     width: 40%;
     display: flex;
     align-items: center;
   }
 }
+
+.nav-container {
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  li{
+    a {
+      text-decoration: none;
+      button {
+        width: 200px;
+      }
+      :hover{
+          background-color: rgba(149, 165, 166, 1);
+          color: white;
+      }
+    }
+  }
+}
+
+
 
 // .separate {
 //   margin: -10px 0;
@@ -69,7 +90,7 @@ body {
 //   }
 // }
 
-.main-container {
+// .main-container {
   // display: flex;
   // .menu {
   //   // border: solid 1px silver;
@@ -88,7 +109,7 @@ body {
   //   width: 100%;
   //   margin: 50px 50px 50px 25px;
   // }
-}
+// }
 
 .contact-form {
   display: flex;
