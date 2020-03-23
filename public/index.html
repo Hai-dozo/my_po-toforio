@@ -3,45 +3,44 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
       <title>React App</title>
   </head>
   <body>
     <div class="wrapper">
       <div class="header-container">
-        <div class="logo">
-          <p>image</p>
-        </div>
         <div class="title">
-          <span id="parent">MY PO-TOFORIO<span id="child"></span></span>
+          <span id="title">MY PO-TOFORIO</span>
         </div>
-        
-        <div class="sub">
+        <div class="sub-text">
           <p>Here you will see works designed and created by me.</p>
+          <p>Any Feedback / Work Requests / Collaborative Works?<span>==></span></p>
         </div>
+        <button class="btn">CONTACT ME!<i class="far fa-paper-plane fa-2x"></i></button>
       </div>
       <hr>
 
       <div class="nav-container">
-        <ul>
-          <li><a href="#spa"><button class="btn">SPA</button></a></li>
-          <li><a href="#small-works"><button class="btn">単体　small works</button></a></li>
-          <li><a href="#website"><button class="btn">ウェブサイト　website</button></a></li>
-          <li><a href="https://qiita.com/Hai-dozo" target="_blank"><button class="btn">ブログ　blog</button></a></li>
-        </ul>
+        <div class="nav-1">
+          <ul>
+            <li><a href="#spa"><button class="btn">SPA</button></a></li>
+            <li><a href="#small-works"><button class="btn">単体　small works</button></a></li>
+            <li><a href="#website"><button class="btn">ウェブサイト　website</button></a></li>
+          </ul>
+        </div>
+        <div class="nav-2">
+          <ul>
+            <li><a href="https://qiita.com/Hai-dozo" target="_blank"><button class="btn">ブログ　blog</button></a></li>
+          </ul>
+        </div>
       </div>
 
 
       <div class="main-container">
-        <!-- <div class="separate">
-          <div class="left">
-            <p></p><p></p><p></p><p></p><p></p><p></p>
-          </div>
-          <div class="right">
-            <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
-          </div> -->
-
         <div class="spa">
           <h1 id="spa">SPA</h1>
+          
           <!-- <div class="menu"> -->
             <div id="menu"></div>
             <div id="menu-copy"></div>
@@ -59,13 +58,6 @@
       <div class="website">
         <h1 id="website"></h1>
       </div>
-
-    <div class="footer-container">
-      <div class="contact-form">
-        <p>Any Feedback / Work Requests / Collaborative Works?</p>
-          <button class="btn">CONTACT ME!</button>
-      </div>
-    </div>
   
       <select>
         <option value="sample">sample</option>

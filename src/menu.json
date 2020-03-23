@@ -8,21 +8,5 @@
         "id": "2",
         "title": "Ikebana Museum",
         "url": "https://tranquil-beach-95850.herokuapp.com/"
-    },
-    {
-        "id": "3",
-        "title": "サルワカ",
-        "url": "https://saruwakakun.com/"
-    },
-    {
-        "id": "4",
-        "title": "Green RGBA model",
-        "url": "http://www.flatuicolorpicker.com/green-rgba-color-model"
-    },
-    {
-        "id": "5",
-        "title": "HTML color code",
-        "url": "https://html-color-codes.info/japanese/"
     }
-
 ]
