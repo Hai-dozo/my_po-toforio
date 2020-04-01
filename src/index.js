@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import Menu from './Menu';
+import SinglePage from './SinglePage';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-ReactDOM.render(<Menu />, document.getElementById('menu'))
+ReactDOM.render(<SinglePage />, document.getElementById('single-page'))
 
 // ReactDOM.render(<MenuNew />, document.getElementById('menu-new'));
 // If you want your app to work offline and load faster, you can change

@@ -1,6 +1,6 @@
 import React from 'react';
-import './menu.scss'
-import data from './menu.json'
+import './single-page.scss'
+import data from './single-page.json'
 
 const Show = ({ title, url }) => (
     <div className="website">
