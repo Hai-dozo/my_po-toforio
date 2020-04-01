@@ -1,6 +1,4 @@
 import React from 'react';
-import imageChina from './china-glaze.png';
-import imageIkebana from './ikebana.png';
 import './menu.scss'
 import data from './menu.json'
 
