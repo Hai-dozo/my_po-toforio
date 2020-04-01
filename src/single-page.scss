@@ -1,33 +1,27 @@
-.img{
-  // border: solid 1px silver;
-  width: 80%;
-  height: auto;
-}
-
 .website {
-  // border: solid 1px silver;
   height: 650px;
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    a{
+      h3{
+        margin: 0;
+      }
+    }
+  }
+  .showcase {
+    height: 100%;
+    padding: 20px;
+    iframe {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+  }
 }
 
-.navbar {
-  // border: solid 1px silver;
-  // flex: 1 1 150px;
-  // margin: 50px 25px 50px 100px;
-  // padding-left: 14px;
-}
-.showcase {
-  // border: solid 1px silver;
-  height: 100%;
-  padding: 20px;
-  // text-align: center;
-  // flex: 6 6 150px;
-  // margin: 50px 50px 50px 25px;
-}
 
-iframe {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-}

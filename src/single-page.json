@@ -2,11 +2,13 @@
     {
         "id": "1",
         "title": "china-glaze",
-        "url": "https://hai-dozo.github.io/china_glaze/"
+        "url": "https://hai-dozo.github.io/china_glaze/",
+        "desc": "Reactで作成しています。アメリカのマニキュアブランドChina Glazeから新色が出たというストーリーで、プロダクト紹介ページを作成しました。QA部分をReactコンポネントで作成しています。サイトのレイアウトはELLE onlineを参考にしていて、マニキュアのカラーが映えるようベースは白黒を意識しています。"
     },
     {
         "id": "2",
         "title": "Ikebana Museum",
-        "url": "https://tranquil-beach-95850.herokuapp.com/"
+        "url": "https://tranquil-beach-95850.herokuapp.com/",
+        "desc": "Reactで作成した"
     }
 ]

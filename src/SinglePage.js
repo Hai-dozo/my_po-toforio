@@ -2,11 +2,11 @@ import React from 'react';
 import './single-page.scss'
 import data from './single-page.json'
 
-const Show = ({ title, url }) => (
+const Show = ({ title, url, desc}) => (
     <div className="website">
         <div className="navbar">
-          <p>{title}</p>
-          <a href={url} target="_blank">visit</a>
+          <a href={url} target="_blank"><h3>{title}</h3></a>
+          <p>{desc}</p>
         </div>
         <div className="showcase">
           <iframe src={url}/>
@@ -36,6 +36,7 @@ const Show = ({ title, url }) => (
               key={q.id}
               title={q.title}
               url={q.url}
+              desc={q.desc}
             />
           ))}
         </div>
